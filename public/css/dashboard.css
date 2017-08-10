@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* ------------ top menu --------------  */
+.navbar{font-family:Arial;
+    background-color: #2EBBCA;
+}
+
+.navbar-collapse{
+    padding-left:0;
+    padding-right:0;
+}
+.navbar-toggle{
+    margin:7px;
+    color:#fff
+}
+
+.navbar{
+    margin:0;
+    z-index:999;
+}
+ul.navbar-nav > li > a{
+    color:#F7FFFF;
+    padding:20px 30px;
+    line-height: 30px;
+    transition:all ease 0.5s;
+    z-index: 99;
+    min-width: 96px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.nav.navbar-nav
+{
+    background-color: #0FAFBF ;
+}
+ul.navbar-nav > li a:hover, ul.navbar-nav > li.active,
+ul.nav .open > a:focus, ul.nav li > a:focus	{
+    color:#F7FFFF;
+    background-color:#2EBBCA;
+    transition:all ease 0.5s;
+}
+
+/* when clicked */
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #2EBBCA;
+
+}
+/* submenu style */
+.navbar .dropdown-menu{
+    z-index:999;
+    min-width:100%;
+    border:0;
+    background-color: transparent;
+    color: black
+}
+.navbar .dropdown-menu  li a{
+    text-align:center;
+    padding:15px;
+    color:black; }
+
+.rsritLogo {
+    background-color: whitesmoke;
+}
+#newnav.dropdown-toggle
+{
+    top: 10px;
+}
+a#newnav.dropdown-toggle:hover
+
+{color:#F7FFFF;
+    background-color: transparent;
+    transition:all ease 0.5s;}
+
+/* search form  */
+.searchform{
+    padding:10px 15px;
+    float:right
+}
+.searchform .btn{
+    color:rgba(200,200,200,.5);
+    border: 1px solid black;
+    background-color:white;
+}
+.searchform .form-control{
+    border:1px solid black;
+    color:white;
+    background-color:white;
+    width:120px!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.searchform .form-control:hover, .searchform .form-control:focus {
+    width: 170px!important;
+}
+#newnav
+{
+    top:11px;
+}
+/*css for tab1.jade files*/
+.movie-card{
+    text-align: center;
+    padding-top: 100px;
+}
+/*media queries*/
+@media (min-width: 768px){
+
+    .navbar-nav{
+        font-size: 12px;
+
+ }
+}
