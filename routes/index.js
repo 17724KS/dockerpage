@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('registry', { title: 'Docker page' });
+  res.render('registry', { title: 'Cisco Bot' });
 });
 
 module.exports = router;
